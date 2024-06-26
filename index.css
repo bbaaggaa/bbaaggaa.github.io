@@ -1,0 +1,944 @@
+.anton-regular {
+   font-family: "Anton", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ .carousel{
+   margin-top: 90px;
+   margin-bottom: 10px;
+text-align: center;
+ }
+h3{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color: #000000;
+  font-size: 23px;
+}
+h4{
+   text-align: center;
+   color: #72fa23;
+   
+}
+button{
+   padding: 3px;
+   border-color: black;
+   background-color: #ffffff;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 120px;
+}
+.bi{
+   font-size: 24px;
+   color: black;
+   margin-left:15px ;
+}
+p{
+   margin-left: 10px;
+}
+
+@media(max-width:650px){
+    /*Celu*/
+ 
+   .navbar{
+      width: 100%;
+      position: fixed;
+     background-color:#0073ff;
+   }
+   .navbar-brand{
+     font-family: "Anton", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+   color:  rgb(183, 7, 180) ;
+  
+   }
+  
+
+    body { background-color: #ffffff72;
+        border: 7px #0073ff solid;
+        border-radius: 7px;}
+      
+     
+        h2{
+            text-align:center;
+        color: rgb(235, 12, 235) ;
+        background-color: rgb(183, 7, 180);
+        }
+        
+        h3 {
+        text-align: center;
+        }
+         .img{
+            text-align: center;
+         }
+         
+       
+
+         /* contenedor*/
+        .Remeras{
+        display: grid;
+        row-gap: 45px;
+        justify-content: center;
+        
+        margin-bottom: 15px;
+        
+        }
+        #Musculosa1{
+            background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+            }
+
+        #Musculosa2{
+         background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+         }
+         #Remera1{
+            background-color: rgb(255, 255, 255);
+            border: rgb(204, 204, 204) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+         }
+         #Remera2{
+            background-color: rgb(255, 255, 255);
+            border: rgb(204, 204, 204) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+         }
+       
+         /* contenedor*/
+        .Camisetas{
+        display: grid;
+        row-gap: 45px;
+        justify-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        }
+    
+        #Camiseta1{
+         background-color: rgb(255, 255, 255);
+         border: rgb(204, 204, 204) 3px solid;
+         border-radius: 7px ;
+         width: 330px;
+         }
+         #Camiseta2{
+            background-color: rgb(255, 255, 255);
+            border: rgb(204, 204, 204) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+         }
+         #Camiseta3{
+            background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+         }
+         /*Contenedor*/
+         .Camisetas2{
+            margin-top: 45px;
+            display: grid;
+            row-gap: 45px;
+            justify-items: center;
+            }
+      
+         #Camiseta4{
+            background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+         }
+         #Camiseta5{
+            background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+         }
+         #Camiseta6{
+            background-color: rgb(255, 255, 255);
+            border: rgb(204, 204, 204) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+         }
+
+      /*Contenedor*/
+         .Buzos{
+            display: grid;
+            row-gap: 45px;
+            justify-items: center;
+            margin-top: 15px;
+margin-bottom: 15px;
+            }
+        
+            #Buzo1{
+               background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+             }
+             #Buzo2{
+               background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+
+             }
+            
+
+
+         /* contenedor*/
+         .Camperas{
+            display: grid;
+            row-gap: 45px;
+            justify-items: center;
+            margin-top: 15px;
+            
+            }
+        
+            #Campera1{
+               background-color: rgb(255, 255, 255);
+               border: rgb(204, 204, 204) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+             }
+             #Campera2{
+               background-color: rgb(255, 255, 255);
+               border: rgb(204, 204, 204) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+             }
+             #Campera3{
+               background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+             }
+          
+             #Campera4{
+               background-color: rgb(255, 255, 255);
+               border: rgb(204, 204, 204) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+             }
+
+              /* contenedor*/
+         .Camperas2{
+            margin-top: 45px;
+            display: grid;
+            row-gap: 45px;
+            justify-items: center;
+   
+            margin-bottom: 15px;
+            }
+        
+             #Campera5{
+               background-color: rgb(255, 255, 255);
+               border: rgb(204, 204, 204) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+             }
+             #Campera6{
+               background-color: rgb(255, 255, 255);
+               border: rgb(204, 204, 204) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+             }
+             #Campera7{
+               background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+             }
+
+             /*Contenedor*/
+             .Shorts{
+                display: grid;
+                row-gap: 45px;
+                justify-items: center;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                }
+            
+                #Short1{
+                 background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+                 }
+                 #Short2{
+                  background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+                 }
+                 #Short3{
+                  background-color: rgb(255, 255, 255);
+                  border: rgb(204, 204, 204) 3px solid;
+                  border-radius: 7px ;
+                  width: 330px;
+                 }
+
+                  /*Contenedor*/
+             .Conjuntos{
+                display: grid;
+                row-gap: 45px;
+                justify-items: center;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                }
+                #Conjunto{
+                  background-color: rgb(255, 255, 255);
+                  border: rgb(204, 204, 204) 3px solid;
+                  border-radius: 7px ;
+                  width: 330px;
+                 }
+
+                  /*Contenedor*/
+                 .Carteras{
+                    display: grid;
+                    row-gap: 45px;
+                    justify-items: center;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    }
+                   
+                    #Cartera1{
+                     background-color: rgb(255, 255, 255);
+                     border: rgb(204, 204, 204) 3px solid;
+                     border-radius: 7px ;
+                     width: 330px;
+                     }
+                     #Cartera2{
+                        background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+                     }
+                     #Bolso{
+                        background-color: rgb(255, 255, 255);
+           border: rgb(204, 204, 204) 3px solid;
+           border-radius: 7px ;
+           width: 330px;
+                     }
+                     footer{
+          
+   
+                        width: 100%;
+                      height: 100px;
+                        background-color: rgba(255, 0, 191, 0.392);
+                     margin-bottom: 20px;
+            
+                  
+                    }
+
+}
+
+    @media(min-width:551px){
+        /*Tablet*/
+
+        .navbar{
+         width: 100%;
+         position: fixed;
+         background-color: rgb(245, 33, 217);
+       }
+       .navbar-brand{
+         font-family: "Anton", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+       color: #fff700 ;
+       }
+     
+    
+
+        body{
+            background-color: rgb(255, 255, 255);
+            border: 7px  rgb(245, 33, 217) solid;
+            border-radius: 7px;
+        }
+        
+      
+            h2{
+               
+                text-align:center;
+            color: rgb(235, 12, 235) ;
+            background-color: rgb(183, 7, 180);
+            margin-top: 15px;
+            }
+
+            h3 {
+                text-align: center;
+                }
+                 .img{
+                    text-align: center;
+                 }
+             
+                 
+                /* contenedor*/
+        .Remeras{
+         display: grid;
+         row-gap: 45px;
+         justify-content: center;
+       
+         margin-bottom: 15px;
+         }
+         #Musculosa1{
+             background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+             }
+ 
+         #Musculosa2{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+          #Remera1{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+          #Remera2{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+        
+          /* contenedor*/
+         .Camisetas{
+         display: grid;
+         row-gap: 45px;
+         justify-items: center;
+         margin-top: 15px;
+         
+         }
+     
+         #Camiseta1{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+          #Camiseta2{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+          #Camiseta3{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+          /*Contenedor*/
+          .Camisetas2{
+             margin-top: 45px;
+             display: grid;
+             row-gap: 45px;
+             justify-items: center;
+             
+             margin-bottom: 15px;
+             }
+       
+          #Camiseta4{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+          #Camiseta5{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+          #Camiseta6{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+          }
+ 
+       /*Contenedor*/
+          .Buzos{
+             display: grid;
+             row-gap: 45px;
+             justify-items: center;
+             margin-top: 15px;
+             margin-bottom: 15px;
+             }
+         
+             #Buzo1{
+               background-color: rgb(255, 255, 255);
+               border: rgb(255, 225, 0) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+              }
+              #Buzo2{
+               background-color: rgb(255, 255, 255);
+               border: rgb(255, 225, 0) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+              }
+             
+ 
+ 
+          /* contenedor*/
+          .Camperas{
+             display: grid;
+             row-gap: 45px;
+             justify-items: center;
+             margin-top: 15px;
+             
+             }
+         
+             #Campera1{
+               background-color: rgb(255, 255, 255);
+               border: rgb(255, 225, 0) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+              }
+              #Campera2{
+               background-color: rgb(255, 255, 255);
+               border: rgb(255, 225, 0) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+              }
+              #Campera3{
+               background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+              }
+           
+              #Campera4{
+               background-color: rgb(255, 255, 255);
+               border: rgb(255, 225, 0) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+              }
+ 
+               /* contenedor*/
+          .Camperas2{
+             margin-top: 45px;
+             display: grid;
+             row-gap: 45px;
+             justify-items: center;
+             
+             margin-bottom: 15px;
+             }
+         
+              #Campera5{
+               background-color: rgb(255, 255, 255);
+               border: rgb(255, 225, 0) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+              }
+              #Campera6{
+               background-color: rgb(255, 255, 255);
+            border: rgb(255, 225, 0) 3px solid;
+            border-radius: 7px ;
+            width: 330px;
+              }
+              #Campera7{
+               background-color: rgb(255, 255, 255);
+               border: rgb(255, 225, 0) 3px solid;
+               border-radius: 7px ;
+               width: 330px;
+              }
+ 
+              /*Contenedor*/
+              .Shorts{
+                 display: grid;
+                 row-gap: 45px;
+                 justify-items: center;
+                 margin-top: 15px;
+                 margin-bottom: 15px;
+                 }
+             
+                 #Short1{
+                  background-color: rgb(255, 255, 255);
+                  border: rgb(255, 225, 0) 3px solid;
+                  border-radius: 7px ;
+                  width: 330px;
+                  }
+                  #Short2{
+                     background-color: rgb(255, 255, 255);
+                     border: rgb(255, 225, 0) 3px solid;
+                     border-radius: 7px ;
+                     width: 330px;
+                  }
+                  #Short3{
+                     background-color: rgb(255, 255, 255);
+                     border: rgb(255, 225, 0) 3px solid;
+                     border-radius: 7px ;
+                     width: 330px;
+                  }
+ 
+                   /*Contenedor*/
+              .Conjuntos{
+                 display: grid;
+                 row-gap: 45px;
+                 justify-items: center;
+                 margin-top: 15px;
+                 margin-bottom: 15px;
+                 }
+                 #Conjunto{
+                  background-color: rgb(255, 255, 255);
+                  border: rgb(255, 225, 0) 3px solid;
+                  border-radius: 7px ;
+                  width: 330px;
+                  }
+ 
+                   /*Contenedor*/
+                  .Carteras{
+                     display: grid;
+                     row-gap: 45px;
+                     justify-items: center;
+                     margin-top: 15px;
+                     margin-bottom: 15px;
+                     }
+                    
+                     #Cartera1{
+                        background-color: rgb(255, 255, 255);
+                        border: rgb(255, 225, 0) 3px solid;
+                        border-radius: 7px ;
+                        width: 330px;
+                      }
+                      #Cartera2{
+                        background-color: rgb(255, 255, 255);
+                        border: rgb(255, 225, 0) 3px solid;
+                        border-radius: 7px ;
+                        width: 330px;
+                      }
+                      #Bolso{
+                        background-color: rgb(255, 255, 255);
+                        border: rgb(255, 225, 0) 3px solid;
+                        border-radius: 7px ;
+                        width: 330px;
+                      }
+
+                     
+                        .button2{
+                        color: #0073ff;
+                        }
+          footer{
+          
+   
+            width: 100%;
+          height: 100px;
+            background-color: rgba(255, 0, 191, 0.392);
+         margin-bottom: 20px;
+
+      
+        }
+    }
+    
+    @media(min-width:880px){
+        /*Compu*/
+        .navbar{
+         width: 100%;
+         position: fixed;
+         background-color: #fff700 ;
+       }
+       .navbar-brand{
+         font-family: "Anton", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+       color: rgb(146, 5, 171) ;
+       }
+    
+       
+        body {background-color: rgb(255, 255, 255);
+            border: 7px #fff700 solid;
+            border-radius: 10px;
+        }
+      
+       
+        h2{
+            text-align:center;
+            color: rgb(235, 12, 235) ;
+            background-color: rgb(131, 0, 128);
+        }
+        
+        h3 {
+        text-align: center;
+        }
+         .img{
+            text-align: center;
+         }
+
+       
+
+/* contenedor*/
+.Remeras{
+   
+        display: flex;
+        column-gap: 45px;
+        justify-content: center;
+        margin-bottom: 45px;
+        
+    }
+    #Musculosa1{
+      background-color: rgb(255, 255, 255);
+      border:  rgb(0, 160, 253) 3px solid;
+      border-radius: 7px;
+      width: 330px;
+      
+    }
+    #Musculosa2{
+      background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+     }
+     #Remera1{
+      background-color: rgb(255, 255, 255);
+      border:  rgb(0, 160, 253) 3px solid;
+      border-radius: 7px;
+      width: 330px;
+     }
+     #Remera2{
+      background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+     }
+   
+     /* contenedor*/
+    .Camisetas{
+     
+            display: flex;
+            column-gap: 45px;
+            justify-content: center;
+            margin-bottom: 45px;  
+    }
+
+    #Camiseta1{
+      background-color: rgb(255, 255, 255);
+      border:  rgb(0, 160, 253) 3px solid;
+      border-radius: 7px;
+      width: 330px;
+     }
+     #Camiseta2{
+      background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+     }
+     #Camiseta3{
+      background-color: rgb(255, 255, 255);
+      border:  rgb(0, 160, 253) 3px solid;
+      border-radius: 7px;
+      width: 330px;
+     }
+  
+     /* contenedor*/
+    .Camisetas2{
+        
+        display: flex;
+        column-gap: 45px;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+
+     #Camiseta4{
+      background-color: rgb(255, 255, 255);
+      border:  rgb(0, 160, 253) 3px solid;
+      border-radius: 7px;
+      width: 330px;
+     }
+     #Camiseta5{
+      background-color: rgb(255, 255, 255);
+      border:  rgb(0, 160, 253) 3px solid;
+      border-radius: 7px;
+      width: 330px;
+     }
+     #Camiseta6{
+      background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+     }
+
+  /*Contenedor*/
+     .Buzos{
+   
+        display: flex;
+        column-gap: 45px;
+        justify-content: center;
+        margin-bottom: 45px;
+        }
+    
+        #Buzo1{
+         background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+         #Buzo2{
+            background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+         #Buzo3{
+            background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+
+
+     /* contenedor*/
+     .Camperas{
+      
+        display: flex;
+        column-gap: 45px;
+        justify-content: center;
+        margin-bottom: 45px;
+        }
+    
+        #Campera1{
+         background-color: rgb(255, 255, 255);
+         border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+         #Campera2{
+            background-color: rgb(255, 255, 255);
+            border:  rgb(255, 234, 0) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+         #Campera3{
+            background-color: rgb(255, 255, 255);
+            border: rgb(255, 234, 0) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+      
+         #Campera4{
+            background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+
+
+     /* contenedor*/
+     .Camperas2{
+      
+        display: flex;
+        column-gap: 45px;
+        justify-content: center;
+        margin-bottom: 45px;
+        }
+
+         #Campera5{
+            background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+         #Campera6{
+            background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+         #Campera7{
+            background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+         }
+
+         /*Contenedor*/
+         .Shorts{
+          
+            display: flex;
+            column-gap: 45px;
+            justify-content: center;
+            margin-bottom: 45px;
+            }
+        
+            #Short1{
+               background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+             }
+             #Short2{
+               background-color: rgb(255, 255, 255);
+               border:  rgb(0, 160, 253) 3px solid;
+               border-radius: 7px;
+               width: 330px;
+             }
+             #Short3{
+               background-color: rgb(255, 255, 255);
+               border:  rgb(0, 160, 253) 3px solid;
+               border-radius: 7px;
+               width: 330px;
+             }
+
+              /*Contenedor*/
+         .Conjuntos{
+         
+            display: flex;
+            column-gap: 45px;
+            justify-content: center;
+            margin-bottom: 45px;;
+            }
+            #Conjunto{
+               background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+             }
+
+              /*Contenedor*/
+             .Carteras{
+            display: flex;
+            column-gap: 45px;
+            justify-content: center;
+            margin-bottom: 45px;
+                }
+               
+                #Cartera1{
+                  background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+                 }
+                 #Cartera2{
+                  background-color: rgb(255, 255, 255);
+            border:  rgb(0, 160, 253) 3px solid;
+            border-radius: 7px;
+            width: 330px;
+                 }
+                 #Bolso{
+                  background-color: rgb(255, 255, 255);
+                  border:  rgb(0, 160, 253) 3px solid;
+                  border-radius: 7px;
+                  width: 330px;
+                 }
+       footer{
+          
+   
+            width: 100%;
+          height: 100px;
+            background-color: rgba(255, 0, 191, 0.392);
+         margin-bottom: 20px;
+
+      
+        }
+        
+        
+    }
+    
